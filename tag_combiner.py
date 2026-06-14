@@ -18,6 +18,7 @@ class TagCombiner:
                 "text_1": ("STRING", {"forceInput": True}),
                 "text_2": ("STRING", {"forceInput": True}),
                 "text_3": ("STRING", {"forceInput": True}),
+                "text_4": ("STRING", {"forceInput": True}),
             }
         }
 
@@ -26,8 +27,8 @@ class TagCombiner:
     FUNCTION = "combine_tags"
     CATEGORY = "Image/Tagger"
 
-    def combine_tags(self, only_unique_diff, text_1=None, text_2=None, text_3=None):
-        inputs = [text_1, text_2, text_3]
+    def combine_tags(self, only_unique_diff, text_1=None, text_2=None, text_3=None, text_4=None):
+        inputs = [text_1, text_2, text_3, text_4,]
         valid_inputs = [t for t in inputs if t is not None and isinstance(t, str) and t.strip() != ""]
 
         if not valid_inputs:
