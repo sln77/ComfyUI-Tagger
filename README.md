@@ -10,7 +10,7 @@
 
 Official source:  https://huggingface.co/pixai-labs/pixai-tagger-v1.0
 
-Download three files (any path supported):
+Download two files (any path supported):
 ```
 model.safetensors
 ```
