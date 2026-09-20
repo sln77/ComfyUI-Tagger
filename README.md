@@ -1,25 +1,22 @@
 
-## PixAI Tagger
+## PixAI Tagger (upd to v1.0)
 
 
 
-<img width="1223" height="592" alt="image" src="https://github.com/user-attachments/assets/94f67a9b-dea4-4663-9140-dc0856740903" />
+<img width="1116" height="809" alt="image" src="https://github.com/user-attachments/assets/ff75bc5f-b1b3-440e-8c7c-852dcfefd7f4" />
 
 
 
-Official source:  https://huggingface.co/pixai-labs/pixai-tagger-v0.9
+
+Official source:  https://huggingface.co/pixai-labs/pixai-tagger-v1.0
 
 Download three files (any path supported):
 ```
-model_v0.9.pth
+model.safetensors
 ```
 
 ```
-char_ip_map.json
-```
-
-```
-tags_v0.9_13k.json
+config.json
 ```
 
 Many thanks to [PixAI Labs](https://huggingface.co/pixai-labs)
