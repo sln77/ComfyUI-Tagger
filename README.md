@@ -24,6 +24,7 @@ Many thanks to [PixAI Labs](https://huggingface.co/pixai-labs)
 *Support is implemented only for the convnextv2_huge.dbv4-full*
 
 Official source: https://huggingface.co/animetimm/convnextv2_huge.dbv4-full
+
 ONNX conversion: https://huggingface.co/itterative/convnextv2_huge.dbv4-full-onnx
 
 Download two files (any path supported):
